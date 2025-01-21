@@ -1,0 +1,47 @@
+/* Estilos para las tarjetas de video */
+.video-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+}
+
+.video-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.video-card h4 {
+  margin: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.video-card p {
+  margin: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.video-card .acciones {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f4f4f9;
+}
+
+.video-card .acciones button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+.video-card .acciones button:hover {
+  background-color: #21a1f1;
+}
