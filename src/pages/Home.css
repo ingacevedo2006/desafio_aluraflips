@@ -1,0 +1,34 @@
+/* Estilos para la página de inicio */
+.home {
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('/ruta/a/imagen-de-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+
+.categorias {
+  margin-top: 20px;
+}
+
+.categoria {
+  margin-bottom: 20px;
+}
+
+.categoria h3 {
+  color: #555;
+}
+
+.videos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
