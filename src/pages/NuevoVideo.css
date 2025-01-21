@@ -1,0 +1,47 @@
+/* Estilos para el formulario de nuevo video */
+.nuevo-video {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.nuevo-video h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.nuevo-video form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nuevo-video input,
+.nuevo-video textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.nuevo-video .botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nuevo-video .botones button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+.nuevo-video .botones button:hover {
+  background-color: #21a1f1;
+}
